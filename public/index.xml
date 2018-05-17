@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content on Demo Site with Hugo</title>
+    <title>Hugo Demo Test on Demo Site with Hugo</title>
     <link>/</link>
-    <description>Recent content in Content on Demo Site with Hugo</description>
+    <description>Recent content in Hugo Demo Test on Demo Site with Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 May 2018 12:58:30 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 21:56:55 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
