@@ -2,6 +2,7 @@
 title = "App Svcs Declare"
 date = 2018-05-15T16:35:46-06:00
 toc = true
+bref = "API docs can be rendered like this one"
 +++
 
 ## Heading 1

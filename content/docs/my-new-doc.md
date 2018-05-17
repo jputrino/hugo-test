@@ -4,15 +4,14 @@ description = "A sample doc"
 date = 2018-05-16T13:15:24-06:00
 weight = 20
 draft = false
-bref = ""
+bref = "some descriptive text"
 toc = true
 +++
 
 # My New Doc
 
 
-This is an admonition under a sidebar.
-
+This is some descriptive text.
 
 
 Step | Task 
