@@ -1,8 +1,8 @@
-+++
-draft= false
-title = "FAQ"
-description = "Asked and answered"
-+++
+---
+description: Asked and answered
+draft: false
+title: FAQ
+---
 
 ## Kube looks awesome. Who is it for?
 

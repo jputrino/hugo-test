@@ -1,12 +1,14 @@
-+++
-date = "2017-04-10T16:40:43+01:00"
-title = "Tables"
-draft = false
-weight = 50
-description = "Rows and columns for all sorts of tables"
-toc = true
-bref = "Tables are an essential part of many different contexts. Kube serves them all and delivers full variety of tables, preformatted to save you time. Whatever your requirements are, tables are completely customizable to match them."
-+++
+---
+bref: Tables are an essential part of many different contexts. Kube serves them all
+  and delivers full variety of tables, preformatted to save you time. Whatever your
+  requirements are, tables are completely customizable to match them.
+date: "2017-04-10T16:40:43+01:00"
+description: Rows and columns for all sorts of tables
+draft: false
+title: Tables
+toc: true
+weight: 50
+---
 
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">

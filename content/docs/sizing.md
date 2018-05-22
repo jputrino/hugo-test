@@ -1,12 +1,12 @@
-+++
-title = "Sizing"
-date = "2017-04-10T16:43:21+01:00"
-draft = false
-weight = 220
-description = "Helper tools for elements width and height"
-bref="Helper tools for elements width and height."
-toc = true
-+++
+---
+bref: Helper tools for elements width and height.
+date: "2017-04-10T16:43:21+01:00"
+description: Helper tools for elements width and height
+draft: false
+title: Sizing
+toc: true
+weight: 220
+---
 
 <h3 class="section-head" id="h-width"><a href="#h-width">Width</a></h3>
 <div class="example demo-sizing">

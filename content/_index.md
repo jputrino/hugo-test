@@ -1,8 +1,8 @@
-+++
-description = "This is a demo Hugo site using the Kube theme for documentation"
-title = "Hugo Demo Test"
-draft = false
-+++
+---
+description: This is a demo Hugo site using the Kube theme for documentation
+draft: false
+title: Hugo Demo Test
+---
 
 # Welcome to F5's test documentation!
 

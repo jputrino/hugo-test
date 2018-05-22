@@ -1,12 +1,13 @@
-+++
-date = "2017-04-10T16:43:30+01:00"
-draft = false
-weight = 280
-description = "A dozen of useful utilities that come with Kube"
-title = "Utils"
-bref= "Here you can find over a dozen of examples of little tiny utilities, that can make developer's life that much easier, and your project progress that much faster."
-toc = true
-+++
+---
+bref: Here you can find over a dozen of examples of little tiny utilities, that can
+  make developer's life that much easier, and your project progress that much faster.
+date: "2017-04-10T16:43:30+01:00"
+description: A dozen of useful utilities that come with Kube
+draft: false
+title: Utils
+toc: true
+weight: 280
+---
 
 <h3 class="section-head" id="h-group"><a href="#h-group">Group</a></h3>
 <p>Combines float elements to group with a clearfix.</p>

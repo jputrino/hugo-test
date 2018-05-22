@@ -1,12 +1,12 @@
-+++
-title = "My New Doc"
-description = "A sample doc"
-date = 2018-05-16T13:15:24-06:00
-weight = 20
-draft = false
-bref = "some descriptive text"
-toc = true
-+++
+---
+bref: some descriptive text
+date: "2018-05-16T13:15:24-06:00"
+description: A sample doc
+draft: false
+title: My New Doc
+toc: true
+weight: 20
+---
 
 # My New Doc
 
