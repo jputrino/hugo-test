@@ -17,6 +17,13 @@ sections:
   templates:
   - my-new-template
 - type: directory
+  path: content/docs/apimanager
+  label: API Manager
+  create: all
+  match: "**/*"
+  templates:
+  - my-new-template
+- type: directory
   path: content/docs/loadbalancer
   label: Load Balancer
   create: all
