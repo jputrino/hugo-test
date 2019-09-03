@@ -1,4 +1,55 @@
 ---
 label: my new template
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The document's title
+- name: draft
+  type: boolean
+  label: Draft
+  description: Marks the document as a draft to keep it from being published.
+- name: toc
+  type: boolean
+  label: ToC
+  description: Turn on to include a page-level table of contents in the document.
+- name: categories
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Task
+    - Concept
+    - Reference
+    - Tutorial
+    - Blog
+    - FAQ
+    - Troubleshooting
+    source:
+      type: simple
+      section: pages
+      file: 
+      path: 
+  label: Categories
+  description: Select the category that applies to the doc
+- name: target_version
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 2.8.0
+    - 2.9.0
+    - 2.6.0
+    - 2.7.0
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Target version
+  description: Select the version that the document should publish with
