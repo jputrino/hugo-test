@@ -53,3 +53,5 @@ fields:
       path: 
   label: Target version
   description: Select the version that the document should publish with
+pages:
+- content/home.md
