@@ -1,6 +1,5 @@
 +++
 categories = ""
-draft = true
 target_version = ""
 title = "Home"
 toc = false
