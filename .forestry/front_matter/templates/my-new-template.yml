@@ -54,4 +54,5 @@ fields:
   label: Target version
   description: Select the version that the document should publish with
 pages:
+- content/docs/loadbalancer/about-the-load-balancer.md
 - content/home.md
