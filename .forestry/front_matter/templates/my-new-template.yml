@@ -53,6 +53,21 @@ fields:
       path: 
   label: Target version
   description: Select the version that the document should publish with
+- name: tags
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - loadbalancer
+    - apimanager
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tags
+  description: Select the appropriate tag for your document
 pages:
 - content/docs/loadbalancer/about-the-load-balancer.md
 - content/home.md
