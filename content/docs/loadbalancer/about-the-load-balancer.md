@@ -1,6 +1,7 @@
 +++
 categories = "Concept"
 draft = true
+tags = "loadbalancer"
 target_version = ""
 title = "About the load balancer"
 toc = true
