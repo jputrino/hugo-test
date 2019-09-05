@@ -63,7 +63,7 @@ This is a test note
 
 ## This is a large image
 
-![image 1](http://clouddocs.f5.com/containers/v2/_images/container_connectors_north-south.png)
+![image 1](https://clouddocs.f5.com/containers/v2/_images/container_connectors_north-south.png)
 
 
 
