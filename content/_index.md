@@ -1,13 +1,13 @@
----
-title: "Content"
-date: 2018-05-16T12:58:30-06:00
-menu: main
----
++++
+description = "This is a demo Hugo site using the Kube theme for documentation"
+title = "Hugo Demo Test"
+draft = false
++++
 
 # Welcome to F5's test documentation!
 
-
 Oh. You need a little dummy text for your mockup? How quaint.
+   
    
 ## Section 1
 
@@ -41,5 +41,4 @@ Crucifix truffaut green juice cardigan, ennui tattooed neutra intelligentsia cha
 Next level aesthetic affogato glossier twee af artisan subway tile, neutra salvia skateboard selfies hell of forage. 
 
 You probably haven't heard of them sriracha butcher, gluten-free vaporware kinfolk fixie pop-up chia VHS. Sustainable pinterest gentrify messenger bag pug pork belly yr fingerstache distillery. Coloring book forage irony skateboard four dollar toast.
-
 

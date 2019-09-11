@@ -2,6 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -10,22 +11,38 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/faq
-  label: Faq
-  create: all
-  match: "**/*"
-- type: directory
   path: content/docs
   label: Docs
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+  templates:
+  - my-new-template
+- type: directory
+  path: content/docs/apimanager
+  label: API Manager
+  create: all
+  match: "**/*"
+  templates:
+  - my-new-template
+- type: directory
+  path: content/docs/loadbalancer
+  label: Load Balancer
+  create: all
+  match: "**/*"
+  templates:
+  - my-new-template
+- type: directory
+  path: content/faq
+  label: FAQ
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+upload_dir: static/media
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
