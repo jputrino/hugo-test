@@ -45,15 +45,16 @@
 <!-- js vendor -->
   <script src="{{ "/js/jquery-2.1.4.min.js" | relURL }}" type="text/javascript">
   </script>
-
   <script type="text/javascript" src="{{ "/js/tocbot.min.js" | relURL }}"></script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
+  <script type="text/javascript">
+    netlifyIdentity.open();
+  </script>
 </head>
 
 
 <body class="page-kube">
-  <header>{{ block "header" . }}{{ end }}</header>
+  <header>{{ block "header" . }}{{ end }}
+  </header>
   <main>{{ block "main" . }}{{ end }}</main>
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
@@ -64,17 +65,7 @@
   </script>
   <script src="{{ "/js/master.js" | relURL }}" type="text/javascript">
   </script>
-  <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+
 </body>
 
 </html>
