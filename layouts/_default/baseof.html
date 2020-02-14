@@ -53,7 +53,9 @@
 
 
 <body class="page-kube">
-  <header>{{ block "header" . }}{{ end }}</header>
+  <header>{{ block "header" . }}{{ end }}
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
+  </header>
   <main>{{ block "main" . }}{{ end }}</main>
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
